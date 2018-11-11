@@ -30,7 +30,8 @@ class InputViewController: UIViewController, UITextFieldDelegate {
         // 枠を角丸にする場合
         contentsTextView.layer.cornerRadius = 10.0
         contentsTextView.layer.masksToBounds = true
-
+        
+        
         titleTextField.delegate = self
         categoryTextView.delegate = self
 
